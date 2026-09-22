@@ -1,4 +1,5 @@
-# AgentDojo + qwen36_27b_local on Aoraki
+# Beyond Safe Outputs:
+Execution-Aware Safety Evaluation of Collaborative LLM Agents
 
 This version is designed for the Otago Aoraki cluster and uses **no paid API**.
 
