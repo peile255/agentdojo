@@ -1,0 +1,81 @@
+{
+  "source_seed_file": "data/agentdojo_compromised_all.jsonl",
+  "seed_count": 11,
+  "unique_task_count": 9,
+  "tasks": [
+    {
+      "suite_name": "banking",
+      "user_task_id": "user_task_0",
+      "seed_ids": [
+        "agentdojo_seed_000000",
+        "agentdojo_seed_000001",
+        "agentdojo_seed_000002"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/banking/user_task_0/none/none.json"
+    },
+    {
+      "suite_name": "slack",
+      "user_task_id": "user_task_0",
+      "seed_ids": [
+        "agentdojo_seed_000003"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/slack/user_task_0/none/none.json"
+    },
+    {
+      "suite_name": "slack",
+      "user_task_id": "user_task_1",
+      "seed_ids": [
+        "agentdojo_seed_000004"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/slack/user_task_1/none/none.json"
+    },
+    {
+      "suite_name": "slack",
+      "user_task_id": "user_task_2",
+      "seed_ids": [
+        "agentdojo_seed_000005"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/slack/user_task_2/none/none.json"
+    },
+    {
+      "suite_name": "slack",
+      "user_task_id": "user_task_3",
+      "seed_ids": [
+        "agentdojo_seed_000006"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/slack/user_task_3/none/none.json"
+    },
+    {
+      "suite_name": "travel",
+      "user_task_id": "user_task_2",
+      "seed_ids": [
+        "agentdojo_seed_000007"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/travel/user_task_2/none/none.json"
+    },
+    {
+      "suite_name": "travel",
+      "user_task_id": "user_task_3",
+      "seed_ids": [
+        "agentdojo_seed_000008"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/travel/user_task_3/none/none.json"
+    },
+    {
+      "suite_name": "workspace",
+      "user_task_id": "user_task_2",
+      "seed_ids": [
+        "agentdojo_seed_000009"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/workspace/user_task_2/none/none.json"
+    },
+    {
+      "suite_name": "workspace",
+      "user_task_id": "user_task_3",
+      "seed_ids": [
+        "agentdojo_seed_000010"
+      ],
+      "expected_trace": "agentdojo_runs/ccfa_native_clean/local/workspace/user_task_3/none/none.json"
+    }
+  ]
+}

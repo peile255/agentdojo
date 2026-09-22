@@ -1,0 +1,24 @@
+environment:
+  python_min: "3.10"
+experiment:
+  name: ccfa_aligned_attack_defended_full
+  random_seed: 20260918
+agentdojo:
+  benchmark_version: v1.2.2
+  attack: tool_knowledge
+local_model:
+  backend: openai_compatible
+  model: qwen3.6:27b
+  base_url: http://127.0.0.1:11444/v1
+  timeout_seconds: 300
+  temperature: 0.0
+  max_new_tokens: 256
+  reasoning_effort: none
+collaboration:
+  attack_condition: compromised
+  repetitions: 1
+  defense_prompt: true
+  topologies: [sequential, peer_debate, hierarchical, safety_monitor]
+  num_agents: [5]
+  num_rounds: [3]
+  exposure_ratio: [0.2]

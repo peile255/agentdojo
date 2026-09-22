@@ -1,0 +1,9 @@
+Name: agentdojo
+Version: 0.1.35
+Summary: A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents
+Home-page: https://agentdojo.spylab.ai
+Author: 
+Author-email: Edoardo Debenedetti <edoardo.debenedetti@inf.ethz.ch>, Jie Zhang <jie.zhang@inf.ethz.ch>, Mislav Balunovic <mislav.balunovic@inf.ethz.ch>, Luca Beurer-Kellner <luca.beurer-kellner@inf.ethz.ch>
+License: 
+Requires: anthropic, click, cohere, deepdiff, docstring-parser, google-genai, langchain, openai, pydantic, python-dotenv, pyyaml, rich, tenacity, typing-extensions
+Required-by: 

@@ -1,0 +1,8 @@
+local_model:
+  model: qwen3.6:27b
+  base_url: http://127.0.0.1:11444/v1
+  timeout_seconds: 300
+  temperature: 0.0
+  max_new_tokens: 768
+  reasoning_effort: none
+
